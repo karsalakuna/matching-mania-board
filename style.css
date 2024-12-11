@@ -1,7 +1,7 @@
 body {
   font-family: 'Slackey';
-  background-color: #f5f5dc;
-  color: midnightblue;
+  background-color: #fafad2;
+  color: #8b008b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ body {
 
 .container {
   text-align: center;
-  background: #f5f5dc;
+  background: #fafad2;
   padding: 100px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -51,7 +51,7 @@ button {
   font-size: 16px;
   margin-top: 20px;
   cursor: pointer;
-  background-color: #ff00ff; /* Warna magenta untuk tombol */
+  background-color: #8b008b; /* Warna magenta untuk tombol */
   color: white; /* Warna teks tombol */
   border: none; /* Menghapus border default */
   border-radius: 5px; /* Memberikan sudut melengkung pada tombol */
