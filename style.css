@@ -1,0 +1,94 @@
+body {
+  font-family: 'Slackey';
+  background-color: #f5f5dc;
+  color: midnightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.slackey-regular {
+  font-family: "Slackey", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.container {
+  text-align: center;
+  background: #f5f5dc;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#next.game {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1, h2, h3, p {
+  margin: 0; /* Menghapus margin default */
+}
+
+h3 {
+  font-size: 1.6em;
+  font-family: 'Slackey';
+}
+
+p {
+  font-size: 1.2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#countdown {
+  font-size:  50px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #ff00ff; /* Warna magenta untuk tombol */
+  color: white; /* Warna teks tombol */
+  border: none; /* Menghapus border default */
+  border-radius: 5px; /* Memberikan sudut melengkung pada tombol */
+  transition: background-color 0.3s; /* Efek transisi saat hover */
+  animation: grow 1s ease forwards; /* Menggunakan animasi grow */
+}
+
+button:hover {
+  background-color: #191970; /* Midnight blue saat hover */
+}
+
+ol {
+  padding-left: 20px; /* Memberikan jarak dari tepi */
+  text-align: left; /* Mengatur teks daftar ke kiri */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+}
+
+li {
+  margin-bottom: 10px; /* Memberikan jarak antar item */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+}
+
+@keyframes grow {
+  0% {
+      transform: scale(0.5); /* Ukuran awal */
+      opacity: 0; /* Transparansi awal */
+  }
+  100% {
+      transform: scale(1); /* Ukuran akhir */
+      opacity: 1; /* Transparansi akhir */
+  }
+}
+
+.title {
+  font-size: 3em; /* Ukuran font judul */
+  animation: grow 1s ease forwards; /* Menggunakan animasi grow */
+}
+
